@@ -1,0 +1,68 @@
+@import './base.css';
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.merriweather-300 {
+  font-family: 'Merriweather', serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+}
+.merriweather-400 {
+  font-family: 'Merriweather', serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+}
+.merriweather-700 {
+  font-family: 'Merriweather', serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+}
+
+.roboto-300 {
+  font-family: 'Roboto', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+}
+.roboto-400 {
+  font-family: 'Roboto', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+}
+.roboto-700 {
+  font-family: 'Roboto', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: 'wdth' 100;
+}
+
+.meta {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+
+  background-color: black;
+  width: fit-content;
+  padding: 4px;
+}
+.meta > a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  font-size: 12px;
+}
+.meta > a.category {
+  color: #6325ff;
+}
